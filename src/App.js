@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+/* Class형 컴포넌트
+import React, {Component} from 'react';
+
+class App extends Component {
+  render() {
+    const name = 'react';
+    return <div className="react">{name}</div>;
+  }
+}*/
+
+import React from "react";
+import MyComponent from "./MyComponent";
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <MyComponent name="손엄지" favoriteNumber={7}>리액트</MyComponent>;
 }
 
 export default App;
