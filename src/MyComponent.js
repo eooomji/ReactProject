@@ -13,7 +13,7 @@ const MyComponent = ({name, favoriteNumber, children}) => { // ()에 다른 걸 
 };
 
 MyComponent.defaultProps = {
-    name : '기본 이름',
+    name : '기본 이름'
 };
 
 MyComponent.propTypes = {   // propTypes는 정수,실수 구분 없이 number로 ㅇㅇ

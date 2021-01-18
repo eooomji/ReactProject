@@ -8,7 +8,8 @@ class EventPractice extends Component {
 /*
     constructor(props) {
         super(props);
-        this.handleChange = this.handleChange.bind(this);
+        this.handleChange = this.handleCh
+        ange.bind(this);
         this.handleClick = this.handleClick.bind(this);
     }
 

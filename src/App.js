@@ -8,12 +8,25 @@ class App extends Component {
   }
 }*/
 
-import React from "react";
+import React, {Component} from "react";
 import MyComponent from "./MyComponent";
+import Counter from "./Counter";
+import Hi from "./Hi";
+import EventPractice from "./EventPractice";
+import ValidationSample from "./ValidationSample";
+import ScrollBox from "./ScrollBox";
 
-
-function App() {
-  return <MyComponent name="손엄지" favoriteNumber={7}>리액트</MyComponent>;
+class App extends Component {
+  render() {
+    return(
+      <div>
+        <ScrollBox ref = {(ref) => this.scrollBox = ref} />
+        <button onClick={() => this.scrollBox.scrollToBottom()}>
+          맨 밑으로
+        </button>
+      </div>
+    );
+  }
 }
 
 export default App;
