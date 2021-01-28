@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class LifeCycleSample extends Component {
+class LifeCycleSample extends Component { // class형임에 유의하기
   state = {
     number: 0,
     color: null,
