@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css 공부하기</title>
+
+    <style>
+        .a {
+            font-size: 32px;
+            font-family: 'Roboto', 'Noto', serif;   /*serif:명조체, sans-serif:고딕체*/
+        }
+        .b {font-size: 2em;}
+        .c {font-size: large;}
+        .d {font-size: small;}
+
+/*         div{
+            width: 100px; height: 100px;
+            background-color: red;
+             border: thick dashed black;
+             border-radius: 50px 40px 20px 10px;    !*왼쪽 위부터 시계 방향으로*!
+            margin: 0 30px; padding: 0 30px;
+        }*/
+
+/*        div{
+            width: 100px; height: 100px;
+            background-color: red;
+            border: 20px solid black;
+            margin: 0 30px; padding: 0 30px;
+        }*/
+
+/*        #box{
+            display: inline;    !*ddddddddd랑 hhhhh가 한 줄에 다 나옴*!
+
+            background-color: black;
+            color: white;
+
+            opacity: 20%;   !*투명도 설정*!
+            !*width: 300px; height: 50px;
+            margin: 10px;*!
+        }*/
+        /*p:nth-child(1) {
+            background-color: cornflowerblue;
+        }
+        p:nth-child(2) {font-size: 100%;}   !*폰트 사이즈가 0인 경우 ---> 없어짐*!
+        p:nth-child(3) {font-size: 150%;}
+        p:nth-child(4) {font-size: 200%;}*/
+
+        /*a {text-decoration: none;}  !*구글 밑에 줄 없게 설정*!
+        a:visited {color:red;}*/
+
+/*        h1:hover {color:red;}   !*마우스 위에 올리면 빨간색*!
+        h1:active{color:blue;}  !*글자 클릭하면 파란색*!*/
+
+/*        * {
+            color:red;
+            background-color: orange;
+        }*/
+    </style>
+</head>
+<body>
+    <h1>FONT</h1>
+    <p class="a">FONT</p>
+    <p class="b">FONT</p>
+    <p class="c">FONT</p>
+    <p class="d">FONT</p>
+</body>
+</html>
